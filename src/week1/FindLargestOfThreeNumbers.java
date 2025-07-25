@@ -14,8 +14,8 @@ public class FindLargestOfThreeNumbers {
 	/**
 	 * @param args
 	 */
-	public static void LogicToFindLargestNumber(int x, int y, int z) { //Created a method to add logic;
-		int temp;
+	public static int LogicToFindLargestNumber(int x, int y, int z) { //Created a method to add logic;
+		int temp; // We can also create separate class for logics and use that class methods to get the logic
 		if(x > y) {
 			temp = x;
 		}else {
@@ -23,7 +23,8 @@ public class FindLargestOfThreeNumbers {
 		}if(z > temp) {
 			temp = z;
 		}
-		System.out.println("Largest of "+x+", "+y+", "+z+" is: "+temp);
+		return temp;
+		//System.out.println("Largest of "+x+", "+y+", "+z+" is: "+temp);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -41,8 +42,8 @@ public class FindLargestOfThreeNumbers {
 		System.out.print("Enter third number: ");
 		int numberthree = number3.nextInt();
 		
-		FindLargestOfThreeNumbers.LogicToFindLargestNumber(numberone, numbertwo, numberthree);
-		
+		int max = FindLargestOfThreeNumbers.LogicToFindLargestNumber(numberone, numbertwo, numberthree);
+		System.out.println("Largest of "+numberone+", "+numbertwo+", "+numberthree+" is: "+max);
 	}
 
 }

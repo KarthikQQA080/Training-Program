@@ -42,7 +42,7 @@ public class FindLargestOfThreeNumbers {
 		System.out.print("Enter third number: ");
 		int numberthree = number3.nextInt();
 		
-		int max = FindLargestOfThreeNumbers.LogicToFindLargestNumber(numberone, numbertwo, numberthree);
+		int max = LogicToFindLargestNumber(numberone, numbertwo, numberthree);
 		System.out.println("Largest of "+numberone+", "+numbertwo+", "+numberthree+" is: "+max);
 	}
 

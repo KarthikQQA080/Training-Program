@@ -1,6 +1,13 @@
 package week2;
 
 public class StudentsDetailsProgram {
+
+	/*
+	 * Question: Student Details Program Create a Student class with fields: name,
+	 * age, rollNo Add a method displayDetails() to print the data. Create 3 student
+	 * objects in main() and display their details.
+	 */
+
 	// name, age and rollNo variables
 	String name;
 	int age;

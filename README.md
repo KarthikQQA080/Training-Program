@@ -1,5 +1,5 @@
 # Training-Program
-It has Assessment &amp; training programs written by me
+It has Assessment & training programs written by me
 -------------------
 Week 1:
  - Count vowels in given string java program.

@@ -2,6 +2,12 @@ package week2;
 
 public class Manager extends Employee {
 
+	/*
+	 * Question: Employee Hierarchy: Create a Person class with name and age. Create
+	 * Employee class that extends Person and adds empId and salary. Create Manager
+	 * class that extends Employee and adds department.
+	 */
+
 	String department = "Project Delivery";
 
 	public static void main(String[] args) {

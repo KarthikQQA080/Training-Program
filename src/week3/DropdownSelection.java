@@ -46,7 +46,7 @@ public class DropdownSelection {
 			List<WebElement> cells = row.findElements(By.xpath("//*[@id=\"customers\"]/tbody/tr"));
 			for(WebElement cell: cells) {
 				System.out.println(cell.getText()+" \t");
-			}
+			}// Took chatgtp help to build this table extraction code
 		}
 		
 	}

@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 public class AssertionsValidations {
 	static WebDriver driver;
 
-	public static void main(String[] args) {
+	@Test
+	public void firstMethod() {
 		String chromeWebDriverName = "webdriver.chrome.driver";
 		String chromeWebDriverLoc = "C://Drivers/chromedriver.exe";
 		System.setProperty(chromeWebDriverName, chromeWebDriverLoc);
@@ -19,10 +20,7 @@ public class AssertionsValidations {
 		driver.manage().window().maximize();
 
 		driver.get("https://tools.pingdom.com/");
-	}
-
-	@Test
-	public void firstMethod() {
+		
 		String ExpectedValue = "Pingdom Website Speed Test";
 		Assert.assertEquals(ExpectedValue,
 				driver.findElement(
